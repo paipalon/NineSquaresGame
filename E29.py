@@ -6,6 +6,7 @@ def aloittaja():
         return "X"
     else:
         return "Y"
+        
 def vaihda(pelaaja):
     if pelaaja == "X":
         return "Y"
@@ -91,8 +92,8 @@ def main():
         
                 if pelinrivi[sarake-1] == 0:
                     pelinrivi[sarake-1] = pelaaja
-                    print(f"Lisätty {pelaaja} rivin {rivi} sarakkeeseen {sarake}")
-                    print()
+                    #print(f"Lisätty {pelaaja} rivin {rivi} sarakkeeseen {sarake}")
+                    #print()
                     vapaa_ruutu = True
                     
                     for i in range(0,3):
