@@ -99,10 +99,8 @@ def main():
                         piirra_rivi(peli,i)
                     print()
                         
-                    if pelaaja == "X":
-                        pelaaja = "Y"
-                    else:
-                        pelaaja = "X"
+                    pelaaja = vaihda(pelaaja)
+                        
                 else:
                     print("Valitsemasi ruutu on jo varattu")      
         
